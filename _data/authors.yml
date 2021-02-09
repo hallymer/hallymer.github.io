@@ -1,0 +1,104 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
+hallymer:
+  name:              Junyeong Park
+  email:             mu072468@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  # 자기 소개
+  about:             |
+    빅데이터를 전공하고 있는 공대생<br>
+    IT분야에 관심이 많고 모든 일에 노력과 열정을 쏟아붓는 타입
+
+
+  # This photo will be used in the about section
+  picture:
+    avatar:          /assets/img/main_profile.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    avatarset:
+      1x:            /assets/img/main_profile.png
+      2x:            /assets/img/main_profile.png
+
+    src:             /assets/img/main_profile.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/img/me.png
+      2x:            /assets/img/me.png
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Icons appear in order, can be rearranged:
+  social:
+    # facebook:         <username>
+    # twitter:         <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    instagram:        korea_chris
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    github:          hallymer
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    email:           mu072468@gmail.com
+    rss:             https://hallymer.github.io/feed.xml
+
+# # Another author
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#     Open `_data/authors.yml` to edit this text.
+#   picture:           https://placehold.it/128x128
+#   social:
+#     github:          <username>
+#     twitter:         <username>
+#   image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
+#   color: '#268bd2'
+
+# # Another author
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+#     Open `_data/authors.yml` to edit this text.
+#   picture:           https://placehold.it/128x128
+#   social:
+#     github:          <username>
+#     twitter:         <username>
+#   image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
+#   color: '#268bd2'
