@@ -18,7 +18,7 @@
       {% assign category_separator = site.data.strings.category_separator | default:" >> " %}
       {% include tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
       <br>
-      {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="tag #" separator=", " %}
+      {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="tag : " separator=", " %}
     </div>
 
     {% include message.html text=post.description %}
