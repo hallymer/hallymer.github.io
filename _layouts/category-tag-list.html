@@ -24,7 +24,8 @@ layout: base
     <ul class="related-posts">
     {% assign tag = currenttag %}
   {% endif %}
-  {% include post-list-item.html post=post format="%d %b" %}
+  <!-- month월 day일로 변경 -->
+  {% include post-list-item.html post=post format="%m월 %d일" %} 
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 {% endfor %}
