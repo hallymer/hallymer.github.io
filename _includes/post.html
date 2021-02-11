@@ -8,12 +8,18 @@
         {{ post.title }}
       {% if include.link_title %}</a>{% endif %}
     </h1>
-
-    <p class="post-date heading">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-      {% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
-      {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
-    </p>
+    <!--년월일-->
+    {% assign post_format = "%Y년 %m월 %d일 글" | default:"%Y %m %d" %}
+    <div class="post-date">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
+      <br>
+      <!-- category-tag -->
+      {% assign category_start     = "카테고리 : "     | default:" in " %}
+      {% assign category_separator = site.data.strings.category_separator | default:" >> " %}
+      {% include tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
+      <br>
+      {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="tag #" separator=", " %}
+    </div>
 
     {% include message.html text=post.description %}
   </header>
