@@ -159,3 +159,6 @@ tipue_search:
          files: [search.html, index.html, tags.html]
          categories: []
          tags: []
+
+# Openc Graph를 이용한 블로그 썸네일 지정
+logo_image:       /assets/img/logo.png
