@@ -7,3 +7,5 @@
 
 [hydejack]: http://themes.jekyllrc.org/hydejack/
 [blog]: https://hallymer.github.io
+
+궁금한 사항이 있으면 **Issues로 물어봐주세요** :)
