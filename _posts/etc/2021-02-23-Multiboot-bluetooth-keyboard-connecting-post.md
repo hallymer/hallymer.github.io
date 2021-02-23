@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 data: 2021-02-23
-last_modified_at: 2021-02-23
+last_modified_at: 2021-02-24
 ---
 
 * toc
@@ -168,7 +168,56 @@ Windows Registry Editor Version 5.00
 [General] 부분에 키보드 이름이 적혀있다. 그걸 참고하고 클릭한 폴더에 키보드 MAC 주소로 폴더명이 적혀있으니 그걸 참고하여<br>
 캡처한 이미지 혹은 BTKeys.reg를 열어서 키보드의 MAC을 찾은 후 HEX 부분을 콤마(,) 구분자 없이 싹 대문자로 입력한다.<br>
 
-글로 작성하면 이해를 못 할 가능성이 높으니 아래 이미지를 추가해야겠다.
+---
+
+글로만 작성하면 이해를 못 할 가능성이 크다. 아래 이미지를 추가하면서 설명을 하겠다.
+
+---
+
+* 이미지가 안 보이면 우측 클릭 **"새 탭에서 이미지 열기"**를 하면 잘 보인다.
+
+![이미지3](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/3.png)
+
+
+위 이미지는 **/var/lib/bluetooth**까지 들어온 모습이다.<br>폴더명을 보면 28:3A:4D:15:83:34로 나와 있다.<br><br>
+즉, **블루투스 수신기의 MAC 주소**가 폴더명이라는 것을 알 수 있다. 블루투스 수신기의 MAC 주소로 나와 있는 폴더를 클릭해서 들어가면 아래 이미지처럼 나온다.
+
+
+![이미지4](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/4.png)
+
+
+아래 빨간 사각형으로 표시해둔 2개가 있다. 표시한 것이 **키보드의 MAC 주소**로 폴더명이 만들어진걸 알 수 있다.
+어떤 키보드의 MAC 주소인지 알기 위해 각각의 폴더에 들어가서 **info 파일**을 확인하면 된다.
+
+
+![이미지4-1](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/4-1.png)
+
+![이미지5](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/5.png)
+
+
+psexec.exe를 이용하여 감춰져 있는 블루투스 키들을 추출한 것을<br>블루투스 수신기의 MAC 주소 폴더명에 복붙한 모습이다.
+
+
+![이미지6](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/6.png)
+
+
+키보드의 MAC 주소로 저장되어있는 폴더명에 들어가니 info 파일이 있다.<br>
+info 파일을 클릭하면 아래 이미지처럼 나온다.
+
+
+![이미지7](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/7.png)
+
+![이미지7-1](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/7-1.png)
+
+
+위 이미지를 보면 [LinkKey] 부분에 빨간 직사각형으로 표시해놨다.<br>
+여기서 **Key 부분**을 **BTKeys.reg 혹은 캡처한 내용을 바탕으로 변경**하면 된다.<br>
+**Key 부분을 변경**할 때 HEX 부분을 콤마(,) **구분자 없이 싹 대문자로 입력**해야 한다.<br>
+현재 위 이미지는 이미 변경한 내용이라 모르겠으면 아래 이미지와 대조하면 금방 이해할 거로 생각한다.
+**아래 이미지는 BTKeys.reg 내용**이다.
+
+
+![이미지8](/assets/img/Blog/etc/Multiboot-bluetooth-keyboard-connecting/8.png)
 
 ---
 
