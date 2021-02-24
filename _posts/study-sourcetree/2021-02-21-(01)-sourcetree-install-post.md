@@ -12,8 +12,10 @@ toc: true
 toc_sticky: true
 
 data: 2021-02-21
-last_modified_at: 2021-02-21
+last_modified_at: 2021-02-25
 ---
+
+![소스트리 이미지](/assets/img/Blog/git/sourcetree/sourcetree.png){: width="1400" height="320"}
 
 * toc
 {:toc}
