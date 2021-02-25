@@ -194,7 +194,8 @@ Authorize atlassian<br>
 그리고<br>
 OAuth 무엇인지 검색을 해봤습니다.<br><br>
 <a href="https://interconnection.tistory.com/76">https://interconnection.tistory.com/76</a><br><br>
-한번 궁금하신 분은 위 링크를 참고하세요.
+한번 궁금하신 분은 위 링크를 참고하세요.<br><br>
+이제 Sourcetree에 Github 로그인 및 연결을 완료하였습니다😀
 </center>
 
 ---
