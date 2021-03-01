@@ -9,3 +9,9 @@
 [blog]: https://hallymer.github.io
 
 궁금한 사항이 있으면 **Issues로 물어봐주세요** :smile:
+
+----
+
+깃허브 블로그를 만들고 싶다 그러면 아래 링크를 참고해주세요! 
+
+**[https://khw11044.github.io/githubpages/](https://khw11044.github.io/githubpages/)**
