@@ -2,7 +2,7 @@
 layout: about
 title: About
 menu: true
-order: 7
+order: 1
 ---
 
 ***
@@ -10,7 +10,7 @@ order: 7
 
 안녕하세요👋 <br>
 한림대학교 정보과학대학 소프트웨어 학부 빅데이터 전공(스마트IoT 복수전공)을 하고 있으며<br> 
-졸업을 앞둔 공대생입니다.
+졸업 및 취업을 준비하고 있는 공대생입니다.
 <br>
 <br>
 IT분야에 관심이 많고, 학교에서 열리는 오픈소스 특강과 Topic 시험에 참여하고 있습니다.<br>
@@ -38,10 +38,10 @@ font-weight:bold">
 
 ## Personal Data
 ---
+> <b>Name</b> : 박준영(Junyeong Park)
+> <b>Date of Birth</b> : 2000.02.07
 > <b>Military service</b> : Completed (Republic of Korea Air Force)
-
 > <b>Email</b> : mu072468@gmail.com
-
 > <b>Github</b> : <a href="https://github.com/hallymer">https://github.com/hallymer</a>
 
 ---
@@ -55,3 +55,7 @@ font-weight:bold">
 > <br><b>Expected graduation</b> : February 2025
 > <br><b>Major</b> : Big Data
 > <br><b>Double major</b> : Smart IOT
+
+---
+More Information <br>
+Click ➡️<A href = "https://github.com/hallymer/RESUME">here</A>⬅️
