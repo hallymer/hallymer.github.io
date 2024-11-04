@@ -9,9 +9,9 @@ author:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   # 자기 소개 (|는 줄바꿈 허용 >는 줄바꿈 무시)
   about:             |
-    이름 : Junyeong Park  
-    주전공 : 빅데이터  
-    복수전공 : 스마트IoT  
+    <b>이름</b> : 박준영 (Junyeong Park)  
+    <b>주전공</b> : 빅데이터  
+    <b>복수전공</b> : 스마트IoT  
 
     🔥모든 일에 노력과 열정을 쏟아붓는 타입🔥
 
