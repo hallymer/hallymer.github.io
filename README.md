@@ -4,6 +4,7 @@
 (2021.02.10) **[Hydejack][hydejack]을 기반으로 [Git Blog][blog]를 만들었습니다.**
 
 (2021.02.11) blog에 **첫 게시물을 작성하였습니다.** :clap:
+(2024.11.05) 3년만에 대대적인 수정 진행!
 
 [hydejack]: http://themes.jekyllrc.org/hydejack/
 [blog]: https://hallymer.github.io
