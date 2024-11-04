@@ -59,7 +59,7 @@
   youtube:
     name: YouTube
     icon: icon-youtube
-    prepend: "https://www.youtube.com/"
+    prepend: "https://www.youtube.com/@"
   twitch:
     name: Twitch
     icon: icon-twitch
