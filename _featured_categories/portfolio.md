@@ -21,7 +21,7 @@ font-weight:bold">
 
 ## Personal Data
 ---
-> <b>Military service</b> : Unfulfilled (Soon)
+> <b>Military service</b> : Completed (Republic of Korea Air Force)
 
 > <b>Email</b> : mu072468@gmail.com
 
@@ -34,6 +34,7 @@ font-weight:bold">
 > <b>Wonju High School</b> &nbsp; <b>[</b>Mar.2016 ~ Jan.2019<b>]</b>
 > <br><b>Major</b> : Natural sciences
 >
-> <b>Hallym University</b> &nbsp; <b>[</b>Feb.2019 ~ Leave of absence(Join the Air Force)<b>]</b>
+> <b>Hallym University</b> &nbsp; <b>[</b>Feb.2019 ~ Currently enrolled<b>]</b>
+> <br><b>Expected graduation</b> : February 2025
 > <br><b>Major</b> : Big Data
 > <br><b>Double major</b> : Smart IOT
