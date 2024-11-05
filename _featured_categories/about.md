@@ -38,10 +38,11 @@ font-weight:bold">
 
 ## Personal Data
 ---
-> <b>Name</b> : 박준영(Junyeong Park)
-> <b>Date of Birth</b> : 2000.02.07
-> <b>Military service</b> : Completed (Republic of Korea Air Force)
-> <b>Email</b> : mu072468@gmail.com
+
+> <b>Name</b> : 박준영(Junyeong Park)<br>
+> <b>Date of Birth</b> : 2000.02.07<br>
+> <b>Military service</b> : Completed (Republic of Korea Air Force)<br>
+> <b>Email</b> : mu072468@gmail.com<br>
 > <b>Github</b> : <a href="https://github.com/hallymer">https://github.com/hallymer</a>
 
 ---
