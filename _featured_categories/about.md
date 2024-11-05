@@ -77,5 +77,7 @@ font-weight:bold">
 
 **************************
 
+<div align = center>
 If you want to learn more about my resume <br>
 Click ➡️<A href = "https://github.com/hallymer/RESUME">here</A>⬅️
+</div>
