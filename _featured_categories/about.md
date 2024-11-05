@@ -57,5 +57,5 @@ font-weight:bold">
 > <br><b>Double major</b> : Smart IOT
 
 ---
-More Information <br>
+More about the resume <br>
 Click ➡️<A href = "https://github.com/hallymer/RESUME">here</A>⬅️
