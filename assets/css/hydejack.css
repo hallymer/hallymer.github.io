@@ -280,7 +280,7 @@ input[type="checkbox"]:checked ~ ul{
 	cursor:pointer;
 	color:#666666;
 	font-family:Arial;
-	font-size:18px;
+	font-size:15px;
 	font-weight:bold;
 	padding:6px 100px;
 	text-decoration:none;
